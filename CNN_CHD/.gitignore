@@ -1,0 +1,7 @@
+/data/generated_splits/
+/models/generated/
+/results/generated/
+/results/figures/
+/src/*.egg-info/
+__pycache__/
+*.pyc

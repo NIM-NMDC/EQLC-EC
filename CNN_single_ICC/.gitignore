@@ -1,0 +1,8 @@
+/data/splits/
+/data/processed/label_mapping.json
+/results/generated/
+/results/figures/
+/results/runtime/
+/src/*.egg-info/
+__pycache__/
+*.pyc

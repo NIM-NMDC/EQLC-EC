@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=78"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chd-pipeline"
+version = "0.1.0"
+description = "Reproducible engineering wrapper for the published CHD experiments"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy==2.5.2",
+    "pandas==3.0.5",
+    "scikit-learn==1.9.0",
+    "matplotlib==3.11.1",
+    "torch==2.13.0+cpu",
+    "neuroCombat==0.2.12",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

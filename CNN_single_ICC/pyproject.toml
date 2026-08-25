@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=78"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "icc-pipeline"
+version = "0.1.0"
+description = "Reproducible ICC mass-spectrometry classification pipeline"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy==2.5.2",
+    "pandas==3.0.5",
+    "scikit-learn==1.9.0",
+    "matplotlib==3.11.1",
+    "openpyxl==3.1.5",
+    "torch==2.13.0+cpu",
+    "torchvision==0.28.0+cpu",
+    "xgboost-cpu==3.4.1",
+    "lightgbm==4.7.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

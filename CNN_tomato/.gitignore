@@ -1,0 +1,12 @@
+/data/raw/*
+!/data/raw/README.md
+/data/processed_binned/
+/data/processed_mz_pairs/
+/data/splits/
+/models/generated/
+/results/generated/
+/results/figures/
+/results/runtime/
+/src/*.egg-info/
+__pycache__/
+*.pyc

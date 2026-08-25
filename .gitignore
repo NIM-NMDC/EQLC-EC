@@ -1,0 +1,15 @@
+# Repository-wide Python environment
+/.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and operating-system metadata
+.DS_Store
+*.swp
